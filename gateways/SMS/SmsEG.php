@@ -1,5 +1,5 @@
 <?php
-namespace Phpanonymous\Geteways\SMS;
+namespace Phpanonymous\Gateways\SMS;
 
 trait SmsEG {
 	public function __construct() {

@@ -1,24 +1,24 @@
 <?php
-namespace Phpanonymous\Geteways;
+namespace Phpanonymous\Gateways;
 use Exception;
 use Illuminate\Support\ServiceProvider;
-use Phpanonymous\Geteways\Payments\Fawry;
-use Phpanonymous\Geteways\Payments\Moyassar;
+use Phpanonymous\Gateways\Payments\Fawry;
+use Phpanonymous\Gateways\Payments\Moyassar;
 
-// use Phpanonymous\Geteways\Payments\CashU;
-// use Phpanonymous\Geteways\Payments\Fawaterk;
-// use Phpanonymous\Geteways\Payments\MyFatoorah;
-// use Phpanonymous\Geteways\Payments\Payfort;
-// use Phpanonymous\Geteways\Payments\Paymob;
-// use Phpanonymous\Geteways\Payments\Paypal;
-// use Phpanonymous\Geteways\Payments\Tap;
-// use Phpanonymous\Geteways\Payments\TwoCheckout;
-// use Phpanonymous\Geteways\SMS\InfoBIP;
-// use Phpanonymous\Geteways\SMS\Mobily;
-// use Phpanonymous\Geteways\SMS\SmsEG;
-// use Phpanonymous\Geteways\SMS\Yamamah;
+// use Phpanonymous\Gateways\Payments\CashU;
+// use Phpanonymous\Gateways\Payments\Fawaterk;
+// use Phpanonymous\Gateways\Payments\MyFatoorah;
+// use Phpanonymous\Gateways\Payments\Payfort;
+// use Phpanonymous\Gateways\Payments\Paymob;
+// use Phpanonymous\Gateways\Payments\Paypal;
+// use Phpanonymous\Gateways\Payments\Tap;
+// use Phpanonymous\Gateways\Payments\TwoCheckout;
+// use Phpanonymous\Gateways\SMS\InfoBIP;
+// use Phpanonymous\Gateways\SMS\Mobily;
+// use Phpanonymous\Gateways\SMS\SmsEG;
+// use Phpanonymous\Gateways\SMS\Yamamah;
 
-class Geteway extends ServiceProvider {
+class Gateway extends ServiceProvider {
 
 	// Gataway Payments
 	use Fawry {

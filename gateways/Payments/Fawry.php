@@ -1,5 +1,5 @@
 <?php
-namespace Phpanonymous\Geteways\Payments;
+namespace Phpanonymous\Gateways\Payments;
 use Illuminate\Support\Facades\Http;
 
 trait Fawry {

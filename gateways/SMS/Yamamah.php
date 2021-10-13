@@ -1,5 +1,5 @@
 <?php
-namespace Phpanonymous\Geteways\SMS;
+namespace Phpanonymous\Gateways\SMS;
 
 trait Yamamah {
 	public function __construct() {

@@ -1,5 +1,5 @@
 <?php
-namespace Phpanonymous\Geteways\Payments;
+namespace Phpanonymous\Gateways\Payments;
 
 trait Moyassar {
 	public function __construct() {

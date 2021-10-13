@@ -1,5 +1,5 @@
 <?php
-namespace Phpanonymous\Geteways\SMS;
+namespace Phpanonymous\Gateways\SMS;
 
 trait InfoBIP {
 	public function __construct() {

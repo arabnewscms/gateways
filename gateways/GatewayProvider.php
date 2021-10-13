@@ -1,9 +1,9 @@
 <?php
-namespace Phpanonymous\Geteways;
+namespace Phpanonymous\Gateways;
 
 use Illuminate\Support\ServiceProvider;
 
-class GetewayProvider extends ServiceProvider {
+class GatewayProvider extends ServiceProvider {
 
 	/**
 	 * Bootstrap services.

@@ -1,9 +1,9 @@
 {
-	"name":"phpanonymous/geteways",
-	"description": "all geteways  SMS & Payments geteways By (Mahmoud Ibrahim) ",
+	"name":"phpanonymous/gateways",
+	"description": "all gateways  SMS & Payments gateways By (Mahmoud Ibrahim) ",
 	"type":"package",
 	"license": "MIT",
-	"keywords":["laravel","geteways","SMS","Payments","php"],
+	"keywords":["laravel","gateways","SMS","Payments","php"],
 	"authors":[
 	{
 		"name":"Mahmoud Ibrahim",
@@ -17,10 +17,10 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"Phpanonymous\\Geteways\\":"geteways/"
+			"Phpanonymous\\Gateways\\":"gateways/"
 		},
 		"files":[ 
-			"geteways/helper.php"
+			"gateways/helper.php"
 		]
 	},
 	"extra": {
@@ -29,10 +29,10 @@
     },
         "laravel": {
             "providers": [
-                "Phpanonymous\\Geteways\\GetewayProvider"
+                "Phpanonymous\\Gateways\\GatewayProvider"
             ],
             "aliases": {
-              "Geteway" :  "Phpanonymous\\Geteways\\Geteway"
+              "Geteway" :  "Phpanonymous\\Gateways\\Gateway"
             }
         }
   },
