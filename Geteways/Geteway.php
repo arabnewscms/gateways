@@ -1,6 +1,7 @@
 <?php
 namespace Phpanonymous\Geteways;
 use Exception;
+use Illuminate\Support\ServiceProvider;
 use Phpanonymous\Geteways\Payments\Fawry;
 use Phpanonymous\Geteways\Payments\Moyassar;
 
@@ -17,7 +18,7 @@ use Phpanonymous\Geteways\Payments\Moyassar;
 // use Phpanonymous\Geteways\SMS\SmsEG;
 // use Phpanonymous\Geteways\SMS\Yamamah;
 
-class Gateway {
+class Geteway extends ServiceProvider {
 
 	// Gataway Payments
 	use Fawry {

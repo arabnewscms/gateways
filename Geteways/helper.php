@@ -7,4 +7,3 @@ if (!function_exists('gateway')) {
 		}
 	}
 }
-//

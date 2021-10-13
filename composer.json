@@ -17,10 +17,10 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"Phpanonymous\\Geteways\\":"Geteways/"
+			"Phpanonymous\\Geteways\\":"geteways/"
 		},
 		"files":[ 
-			"Geteways/helper.php"
+			"geteways/helper.php"
 		]
 	},
 	"extra": {
