@@ -51,7 +51,8 @@ php artisan vendor:publish --provider="Phpanonymous\Gateways\GatewayProvider"
 available gateways click on logo to visit usage wiki 
 
 <p align="center">
-    <a href="https://github.com/arabnewscms/gateways/wiki/Fawry-Gateway"><img src="https://fawry.com/wp-content/uploads/2019/02/fawry-245x180.png" width="250" height="250" style="width:150px;height:150px;"></a>
+    <a href="https://github.com/arabnewscms/gateways/wiki/Fawry-Gateway"><img src="https://fawry.com/wp-content/uploads/2019/02/fawry-245x180.png" width="250" height="250" style="width:150px;height:150px;"></a>  
+    <a href="https://github.com/arabnewscms/gateways/wiki/Moyasar-Gateway"><img src="https://s3-eu-west-1.amazonaws.com/moyasar.api.assets.prod/images/moyasar-logo.png" width="250" height="250" style="width:150px;height:150px;"></a>
 </p>
 
 # documents
