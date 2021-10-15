@@ -15,6 +15,8 @@ class Gateway extends ServiceProvider {
 			return 'Phpanonymous\Gateways\Payments\Fawry';
 		} elseif ($this->provider == 'moyassar') {
 			return 'Phpanonymous\Gateways\Payments\Moyassar';
+		} elseif ($this->provider == 'paymob') {
+			return 'Phpanonymous\Gateways\Payments\Paymob';
 		} else {
 			throw new Exception('Please choose your Provider Payments or SMS');
 		}
