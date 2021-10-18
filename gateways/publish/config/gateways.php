@@ -33,9 +33,9 @@ return [
 			"live_publishable_key" => "",
 		],
 		'myfatoorah' => [
-			"mode" => "sandbox", // sandbox|demo , live
-			"token" => "",
+			"mode" => "sandbox", // sandbox OR demo , live
 			"secret_key" => "",
+			"token" => "",
 		],
 	],
 
