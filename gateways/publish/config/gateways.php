@@ -11,6 +11,7 @@ return [
 		'enable_payments' => [
 			'fawry',
 			'moyassar',
+			'myfatoorah',
 		],
 
 	],
@@ -30,6 +31,11 @@ return [
 			"test_publishable_key" => "",
 			"live_secret_key" => "",
 			"live_publishable_key" => "",
+		],
+		'myfatoorah' => [
+			"mode" => "sandbox", // sandbox|demo , live
+			"token" => "",
+			"secret_key" => "",
 		],
 	],
 

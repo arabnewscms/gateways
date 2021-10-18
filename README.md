@@ -2,7 +2,7 @@
  package name: `gateways`
  
  
- package version: `v1.1`
+ package version: `v1.2`
  
  
  author : `mahmoud ibrahim`
