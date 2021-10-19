@@ -4,7 +4,6 @@ namespace Phpanonymous\Gateways\Payments;
 
 use Illuminate\Support\Facades\Http;
 
-
 class Paymob {
 
 	// Sandbox or Live Link
