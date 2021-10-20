@@ -50,8 +50,19 @@ php artisan vendor:publish --provider="Phpanonymous\Gateways\GatewayProvider"
 
 available gateways click on logo to visit usage wiki 
 
+### payment gateways
 <p align="center">
     <a href="https://github.com/arabnewscms/gateways/wiki/Fawry-Gateway"><img src="https://fawry.com/wp-content/uploads/2019/02/fawry-245x180.png" width="250" height="250" style="width:150px;height:150px;"></a>  
+    <a href="https://github.com/arabnewscms/gateways/wiki/Moyasar-Gateway"><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/vnezsrsdjusfhv1ohutv" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
+    padding: 12px;" bgcolor="#fff"></a>
+    <a href="https://github.com/arabnewscms/gateways/wiki/My-Fatoorah"><img src="https://xm.eber.co/img/v2/experiences/myfatoorah.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
+    padding: 12px;" bgcolor="#fff"></a>
+</p>
+
+### SMS gateways
+
+<p align="center">
+    <a href="https://github.com/arabnewscms/gateways/wiki/Fawry-Gateway"><img src="https://smsmisr.com/assets/img/logo.png" width="250" height="250" style="width:150px;height:150px;"></a>  
     <a href="https://github.com/arabnewscms/gateways/wiki/Moyasar-Gateway"><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/vnezsrsdjusfhv1ohutv" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
     padding: 12px;" bgcolor="#fff"></a>
     <a href="https://github.com/arabnewscms/gateways/wiki/My-Fatoorah"><img src="https://xm.eber.co/img/v2/experiences/myfatoorah.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
