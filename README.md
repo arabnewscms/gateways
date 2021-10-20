@@ -62,7 +62,7 @@ available gateways click on logo to visit usage wiki
 ### SMS gateways
 
 <p align="center">
-    <a href="https://github.com/arabnewscms/gateways/wiki/SMS-Misr"><img src="https://smsmisr.com/assets/img/logo.png" width="250" height="250" style="width:150px;height:150px;"></a>  
+    <a href="https://github.com/arabnewscms/gateways/wiki/SMS-Misr"><img src="https://smsmisr.com/assets/img/logo.png" width="260" height="250" style="width:260px;height:150px;"></a>  
 </p>
 
 # documents
