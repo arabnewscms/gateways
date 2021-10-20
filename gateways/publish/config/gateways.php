@@ -6,13 +6,12 @@ return [
 		 * SMS Providers and Configurations multi providers
 		 *
 		 * enable Multiple getaway to use it in your project
-		 * fawry,myfatoorah,fawaterk,paypal,payfort,2checkout,moyassar,cashu,tab,paymob
+		 * fawry,myfatoorah,moyassar
 		 */
 		'enable_payments' => [
 			'fawry',
 			'moyassar',
 			'myfatoorah',
-			'paymob',
 		],
 
 	],
@@ -43,7 +42,7 @@ return [
 
 	/**
 	 * SMS Providers and Configurations multi providers
-	 * default providers mobily,smseg,infobip
+	 * default smsmisr
 	 */
 	'sms' => [
 		'smsmisr' => [
