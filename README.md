@@ -62,5 +62,5 @@ available gateways click on logo to visit usage wiki
 
 https://github.com/arabnewscms/gateways/wiki
 
-More services are now included soon
+More services are included soon
 
