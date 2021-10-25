@@ -118,7 +118,7 @@ class MyFatoorah {
 				$all_keys = array_map('strtolower', $all_keys);
 
 				if (!in_array($param, $all_keys)) {
-					dd($param . !in_array($param, array_keys($this->params), false));
+					//dd($param . !in_array($param, array_keys($this->params), false));
 					throw new \Exception($param . ' parameter not found');
 				}
 			} else {

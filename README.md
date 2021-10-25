@@ -2,7 +2,7 @@
  package name: `gateways`
  
  
- package version: `v1.3`
+ package version: `v1.4`
  
  
  author : `mahmoud ibrahim`
@@ -56,6 +56,8 @@ available gateways click on logo to visit usage wiki
     <a href="https://github.com/arabnewscms/gateways/wiki/Moyasar-Gateway"><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/vnezsrsdjusfhv1ohutv" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
     padding: 12px;" bgcolor="#fff"></a>
     <a href="https://github.com/arabnewscms/gateways/wiki/My-Fatoorah"><img src="https://xm.eber.co/img/v2/experiences/myfatoorah.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
+    padding: 12px;" bgcolor="#fff"></a>
+    <a href="https://github.com/arabnewscms/gateways/wiki/Fawaterk"><img src="https://fawaterk.com/wp-content/uploads/2021/02/Fawaterk-Logo-1_en.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
     padding: 12px;" bgcolor="#fff"></a>
 </p>
 
