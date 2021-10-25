@@ -6,12 +6,13 @@ return [
 		 * SMS Providers and Configurations multi providers
 		 *
 		 * enable Multiple getaway to use it in your project
-		 * fawry,myfatoorah,moyassar
+		 * fawry,myfatoorah,moyassar,fawaterk
 		 */
 		'enable_payments' => [
 			'fawry',
 			'moyassar',
 			'myfatoorah',
+			'fawaterk',
 		],
 
 	],
@@ -36,6 +37,10 @@ return [
 			"mode" => "sandbox", // sandbox OR demo , live
 			"secret_key" => "",
 			"token" => "",
+		],
+		'fawaterk' => [
+			'mode' => 'sandbox', // sandbox , live
+			'api_key' => '',
 		],
 
 	],
