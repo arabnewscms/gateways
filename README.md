@@ -57,7 +57,7 @@ available gateways click on logo to visit usage wiki
     padding: 12px;" bgcolor="#fff"></a>
     <a href="https://github.com/arabnewscms/gateways/wiki/My-Fatoorah"><img src="https://xm.eber.co/img/v2/experiences/myfatoorah.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
     padding: 12px;" bgcolor="#fff"></a>
-    <a href="https://github.com/arabnewscms/gateways/wiki/Fawaterk"><img src="https://fawaterk.com/wp-content/uploads/2021/02/Fawaterk-Logo-1_en.png" width="250" height="150" style="width:150px;height:150px;background-color: #fff;
+    <a href="https://github.com/arabnewscms/gateways/wiki/Fawaterk"><img src="https://fawaterk.com/wp-content/uploads/2021/02/Fawaterk-Logo-1_en.png" width="250" height="250" style="width:250px;height:150px;background-color: #fff;
     padding: 12px;" bgcolor="#fff"></a>
 </p>
 
