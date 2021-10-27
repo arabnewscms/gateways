@@ -56,6 +56,11 @@ return [
 			'sender' => '', // default sender name
 			'language' => 1, // 1 For English , 2 For Arabic , 3 For Unicode
 		],
+		'for_jawaly' => [
+			'username' => '',
+			'password' => '',
+			'sender' => '', 
+		]
 	],
 
 ];
