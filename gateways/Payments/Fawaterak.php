@@ -52,7 +52,7 @@ class Fawaterak {
 		];
 
 		// prepare links
-		$this->link = $this->config->mode == 'live' ? 'https://fawaterk.com' : 'https://fawaterkstage.com';
+		$this->link = $this->config->mode == 'live' ? 'https://fawaterk.com' : 'https://staging.fawaterk.com';
 
 		// Links gateway Methods
 		$this->links = [
