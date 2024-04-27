@@ -12,6 +12,7 @@ class Fawaterak {
 	// Sandbox or Live Link
 	private $link;
 
+	private $invoice_id;
 	/**
 	 * links method to collect and prepare all link with moyassar
 	 * @return array
@@ -35,6 +36,7 @@ class Fawaterak {
 		'INVOICE',
 		'METHODS',
 		'PAY',
+        'getInvoiceData',
 	];
 
 	protected $currency = ['USD', 'EGP', 'SR', 'AED', 'KWD', 'QAR', 'BHD'];
@@ -58,8 +60,8 @@ class Fawaterak {
 		$this->links = [
 			"INVOICE" => $this->link . "/" . $this->version . "/createInvoiceLink",
 			"METHODS" => $this->link . "/" . $this->version . "/getPaymentmethods",
-			"PAY" => $this->link . "/" . $this->version . "/invoiceInitPay",
-
+			"PAY"     => $this->link . "/" . $this->version . "/invoiceInitPay",
+			"getInvoiceData" => $this->link . "/" . $this->version."/getInvoiceData",
 		];
 
 	}
@@ -131,6 +133,17 @@ class Fawaterak {
 		$this->signature();
 		return $this;
 	}
+
+	public function id(int $invoice_id){
+        $this->signature();
+        $this->response = $this->response(
+			Http::withHeaders($this->headers)
+				->get($this->links['getInvoiceData'].'/'.$invoice_id)
+		);
+		return $this->response['collect'];
+	}
+
+
 
 	/**
 	 * @param $response
