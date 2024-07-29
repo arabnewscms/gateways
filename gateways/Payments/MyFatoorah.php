@@ -78,7 +78,7 @@ class MyFatoorah {
 		$this->params['language'] = $this->locale;
 
 		// prepare links
-		$this->link = $this->config->mode == 'live' ? $this->config->live_base_url ?? 'https://api.myfatoorah.com' : 'https://apitest.myfatoorah.com';
+		$this->link = $this->config->mode == 'live' ? $this->config->live_url ?? 'https://api.myfatoorah.com' : 'https://apitest.myfatoorah.com';
 
 		// Links gateway Methods
 		$this->links = [

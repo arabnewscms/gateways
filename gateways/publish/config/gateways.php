@@ -37,7 +37,7 @@ return [
 			"mode" => "sandbox", // sandbox OR demo , live
 			"secret_key" => "",
 			"token" => "",
-            "live_base_url" => null,
+            "live_url" => null,
 		],
 		'fawaterk' => [
 			'mode' => 'sandbox', // sandbox , live
